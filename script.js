@@ -24,4 +24,21 @@ jQuery(function () {
 
     alert("Success: Form submitted successfully");
   });
+
+  $("a").on("click", function (e) {
+    alert("Clicked Successfully");
+    e.preventDefault();
+  });
+
+  //   $("a").on("focus", function () {
+  //     alert("Now Focused");
+  //   });
+
+  //   $("a").on("mouseover", function () {
+  //     alert("Mouse Over");
+  //   });
+
+  //   $("a").on("mouseout", function () {
+  //     alert("Mouse Out Now");
+  //   });
 });
